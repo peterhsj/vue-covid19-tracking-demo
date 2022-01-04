@@ -1,18 +1,23 @@
 <template>
   <v-app>
+    <v-app-bar app>
+      <router-link to="/">Go to Home</router-link> 
+      |
+      <router-link to="/Covid">Covid-19</router-link>
+    </v-app-bar>
     <v-main>
-      <Covid />
+      <v-container fluid>
+        <router-view></router-view>
+      </v-container>
     </v-main>
   </v-app>
 </template>
 
 <script>
-import Covid from './components/covid/Covid.vue'
 
 export default {
   name: 'App',
   components: {
-    Covid,
   },
   data() {
     return {};
