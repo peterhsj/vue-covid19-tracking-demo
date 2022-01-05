@@ -13,6 +13,12 @@ const AppBarConfig = [
     component: () => import('../views/covid/Covid.vue'),
     title: 'Covid-19',
   },
+  {
+    name: 'Form',
+    path: '/Form',
+    component: () => import('../views/Form.vue'),
+    title: 'Form',
+  },
 ];
 
 export default AppBarConfig;
