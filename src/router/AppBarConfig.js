@@ -1,4 +1,4 @@
-import HelloWorld from '../components/HelloWorld.vue';
+import HelloWorld from '../views/HelloWorld.vue';
 
 const AppBarConfig = [
   {
@@ -10,7 +10,7 @@ const AppBarConfig = [
   {
     name: 'Covid',
     path: '/Covid',
-    component: () => import('../components/covid/Covid.vue'),
+    component: () => import('../views/covid/Covid.vue'),
     title: 'Covid-19',
   },
 ];
