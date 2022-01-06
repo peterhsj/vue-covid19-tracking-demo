@@ -97,5 +97,6 @@
 .FormTitle {
   color: #336600;
   font-size: 20px;
+  font-weight: 400;
 }
 </style>
